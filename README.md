@@ -16,5 +16,18 @@ This Firefox extension allows you to open all links matching a specific CSS sele
 ## Customization
 You can customize the CSS selector used to find links by modifying the `background.js` file.
 
+## Contributing
+
+Contributions to the link-opener browser extension are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature`)
+6. Create a new Pull Request
+
+Please review the [Contribution Guidelines](CONTRIBUTING.md) before contributing.
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
