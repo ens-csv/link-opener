@@ -5,7 +5,7 @@ browser.runtime.onMessage.addListener((message) => {
   });
   
   function openLinks() {
-    const selector = 'body > div:nth-child(2) > main > div > div:nth-child(4) > div:nth-child(2) > div a';
+    const selector = '.puz-history__round__puzzle';
     const url = browser.tabs.query({ active: true, currentWindow: true })
       .then((tabs) => {
         const activeTab = tabs[0];
